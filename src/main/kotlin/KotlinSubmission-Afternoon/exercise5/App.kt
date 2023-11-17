@@ -7,6 +7,7 @@ fun main() {
      * Buat variable dengan nama hero dibawah ini dan isi nilai variable tersebut dengan class Hero
      *
      */
+    var hero = Hero()
 
 
     /**
@@ -15,6 +16,7 @@ fun main() {
      * Dan isi argumen-argumen / data dari parameter sesuai data diri Anda (Name, Age, Height)
      *
      */
+    hero.setProfile("Ahsa",20,164)
 
 
 
@@ -23,7 +25,7 @@ fun main() {
      * Tampilkan data profile dibawah ini, sebelum melakukan aktivitas
      *
      */
-
+    hero.profile()
 
 
     /**
@@ -65,15 +67,35 @@ fun main() {
      * Jalankan aktivitas-aktivitas dengan memanggil fungsi-fungsi sesuai challenge diatas
      *
      */
-
-
+    //11:11 ->7: jalan 1x, lari 2x, makan 3x, minum 4x, lompat 5x, duduk 6x
+    hero.jalan()
+    hero.lari()
+    hero.lari()
+    hero.makan()
+    hero.makan()
+    hero.makan()
+    hero.minum()
+    hero.minum()
+    hero.minum()
+    hero.minum()
+    hero.lompat()
+    hero.lompat()
+    hero.lompat()
+    hero.lompat()
+    hero.lompat()
+    hero.duduk()
+    hero.duduk()
+    hero.duduk()
+    hero.duduk()
+    hero.duduk()
+    hero.duduk()
 
     /**
      * Latihan 5
      * Panggil fungsi profile dibawah ini untuk menampilkan status terkini setelah melakukan aktivitas
      *
      */
-
+    hero.profile()
 
 
 }

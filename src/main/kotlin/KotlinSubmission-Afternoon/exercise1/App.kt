@@ -12,7 +12,7 @@ Dan Cetak setiap variabel ke layar saat variable myProfile di panggil
 fun myProfile() {
     var firstName : String = "Syauqillah"
     var lastName : String = "Hadie Ahsana"
-    var age : Int = 20
+    var age : Number = 20
     var status : Boolean = false
 
     println("Name : $firstName $lastName")
